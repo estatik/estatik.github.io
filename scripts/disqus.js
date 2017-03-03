@@ -1,8 +1,8 @@
 ---
 ---
 var disqus_config = function () {
-this.page.url = {{ page.url }};
-this.page.identifier = {{ page.url }};
+this.page.url = {{ disqus_page_url }};
+this.page.identifier = {{ disqus_page_url }};
 };
 (function() {
 var d = document, s = d.createElement('script');
